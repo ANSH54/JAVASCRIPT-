@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ANSH</title>
+  <style>
+   body{
+     background: red;
+   }
+   
+   
+button{
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#lolu{
+display: none;
+  border-radius: 20px;
+  height: 50vh;
+  width: 40%;
+  padding-left: 5px;
+  background: white;
+  
+}
+
+p{
+  color: red;
+}
+
+
+
+  </style>
+</head>
+
+<body id="sti">
+
+<button onclick="me()">________<br>________</button>
+
+<br><br>
+
+
+<div id="lolu">
+  
+  
+  
+  <p>Choose Background Color</p>
+<button onclick="my1()">Orange</button><br><br>
+<button onclick="my2()">Lime</button><br><br>
+<button onclick="my3()">Skyblue</button><br><br>
+<button onclick="my4()">Yellow</button><br><br>
+<button onclick="my5()">pink</button><br><br>
+
+
+
+
+</div>
+
+
+
+
+<script>
+  
+   function me(){
+     var kill = document.getElementById("lolu");
+     
+     dubbu=kill.style.display
+     
+     kill.style.display="none";
+     
+     
+     if(dubbu == "none"){
+       kill.style.display="block";
+     }
+     }
+   
+   
+  function my1(){
+    var kill = document.getElementById("sti");
+    kill.style.backgroundColor="orange";
+  }
+  
+  function my2(){
+    var kill = document.getElementById("sti");
+    kill.style.backgroundColor="lime";
+  }
+  
+  
+  function my3(){
+    var kill = document.getElementById("sti");
+    kill.style.backgroundColor="skyblue";
+  }
+  
+  function my4(){
+    var kill = document.getElementById("sti");
+    kill.style.backgroundColor="Yellow";
+  }
+  
+  
+  function my5(){
+    var kill = document.getElementById("sti");
+    kill.style.backgroundColor="Pink";
+  }
+  
+  
+  
+</script>
+
+</body>
+
+</html>
